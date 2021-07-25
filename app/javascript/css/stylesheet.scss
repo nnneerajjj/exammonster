@@ -1,1 +1,34 @@
 @import "~bootstrap/scss/bootstrap.scss";
+
+/* mixins, variables, etc. */
+
+/* footer */
+
+.btn-success {
+  color: white !important;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  box-sizing: border-box;
+}
